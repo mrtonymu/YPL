@@ -1,0 +1,266 @@
+.header-top .elementor-inner-column .elementor-nav-menu > li.menu-item > a:before {
+  content: "";
+  opacity: 1 !important;
+  display: block;
+  position: relative;
+  height: 35px;
+  width: 35px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
+
+.header-top .elementor-inner-column:nth-child(1) .elementor-nav-menu > li.menu-item > a:before {
+  background-image: url("https://nkfs.org/wp-content/uploads/2020/01/kidneys.svg");
+}
+
+.header-top .elementor-inner-column:nth-child(2) .elementor-nav-menu > li.menu-item > a:before {
+  background-image: url("https://nkfs.org/wp-content/uploads/2020/01/icons8-__bloodbag.svg");
+}
+
+.header-top .elementor-inner-column:nth-child(3) .elementor-nav-menu > li.menu-item > a:before {
+  background-image: url("https://nkfs.org/wp-content/uploads/2020/01/icons8-volunteering.svg");
+}
+
+.header-top .elementor-inner-column:nth-child(4) .elementor-nav-menu > li.menu-item > a:before {
+  background-image: url("https://nkfs.org/wp-content/uploads/2020/01/icons8-treatment_plan.svg");
+}
+
+ul.sub-menu.sub-menu-open {
+  transition: none !important;
+}
+
+.media-coverage-button {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.media-coverage-button .show-more-btn {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.media-coverage-button .show-more-btn.mobile-only {
+  display: none !important;
+}
+
+.media-coverage-content.fancybox-content {
+  padding: 0;
+  width: 650px;
+  background-color: transparent;
+}
+
+.media-coverage-content.fancybox-content .feature-image {
+  padding: 30px;
+}
+
+@media (max-width: 1024px) {
+  .media-coverage-content.fancybox-content {
+    width: 500px;
+  }
+}
+
+@media (max-width: 767px) {
+  .media-coverage-content.fancybox-content {
+    width: 100%;
+  }
+}
+
+.media-coverage-content.fancybox-content .fancybox-button.fancybox-close-small {
+  color: white;
+  opacity: 1;
+}
+
+.media-coverage-content.fancybox-content .fancybox-button.fancybox-close-small:hover {
+  background-color: transparent;
+}
+
+.promotion-content {
+  width: 60%;
+  margin: 5% 0;
+}
+
+@media (max-width: 1024px) {
+  .promotion-content {
+    width: 80%;
+  }
+}
+
+.promotion-content .fancybox-close-small:hover {
+  background: white;
+}
+
+.promotion-content .divider {
+  width: 100%;
+  display: block;
+  background: #E7E7E7;
+  height: 1px;
+  margin: 5% 0;
+}
+
+.promotion-content .row {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 767px) {
+  .promotion-content .row {
+    flex-direction: column-reverse;
+  }
+}
+
+.promotion-content .row .column {
+  flex: 1;
+}
+
+.promotion-content .row .column .logo-container img {
+  width: auto;
+  max-height: 85px;
+  display: block;
+  margin-left: auto;
+}
+
+@media (max-width: 767px) {
+  .promotion-content .row .column .logo-container img {
+    margin: auto 0;
+  }
+}
+
+.promotion-read-more-btn {
+  text-align: right;
+}
+
+.promotion-read-more-btn .show-more-btn {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.widget-bottom-margin-zero.elementor-widget {
+  margin-bottom: 0px;
+}
+
+.nkf-image-box img {
+  width: 100%;
+}
+
+.widget-bottom-margin-zero-whole-section .elementor-widget:not(:last-child) {
+  margin-bottom: 0px;
+}
+
+.image-carousel-arrow-grey-bg .elementor-swiper-button {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1%;
+}
+
+.kidney-health-talks-table tbody tr th {
+  background-color: #e7efef !important;
+}
+
+.kidney-health-talks-table tbody tr th span {
+  color: #81a0a0;
+}
+
+.kidney-discovery-centre-table tbody tr td:nth-child(1) .uael-table__text {
+  align-items: center;
+}
+
+.kidney-discovery-centre-table tbody tr th {
+  background-color: #e7efef !important;
+}
+
+.kidney-discovery-centre-table tbody tr th span {
+  color: #81a0a0;
+}
+
+.kidney-discovery-centre-table tbody tr:nth-child(6) td:nth-child(4) {
+  background-color: #e7efef !important;
+}
+
+.nkf-tabs-theme-home .jet-tabs__control-wrapper {
+  width: 100%;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .nkf-tabs-theme-home .jet-tabs__control-wrapper {
+    flex-direction: column;
+  }
+}
+
+.nkf-tabs-theme-home .jet-tabs__control-wrapper .jet-tabs__control {
+  width: 100%;
+  flex: 1;
+  background: #F6F6F6;
+  border: 1px solid #E2E2E2;
+}
+
+.nkf-tabs-theme-home .jet-tabs__control-wrapper .jet-tabs__control .jet-tabs__label-text {
+  color: #A7A7A7;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.nkf-tabs-theme-home .jet-tabs__control-wrapper .jet-tabs__control.active-tab {
+  background: #FFFFFF;
+}
+
+.nkf-tabs-theme-home .jet-tabs__control-wrapper .jet-tabs__control.active-tab .jet-tabs__label-text {
+  color: #BF2828;
+}
+
+.home-cta .elementor-cta__content .elementor-cta__button {
+  width: 190px;
+}
+
+.why-join-us-tab .jet-tabs__control {
+  margin: 10px 20px;
+  position: relative;
+}
+
+.why-join-us-tab .jet-tabs__control:nth-child(1)::before {
+  background-image: url("https://nkfs.org//wp-content/uploads/2020/03/nurturing-2.svg");
+}
+
+.why-join-us-tab .jet-tabs__control:nth-child(2)::before {
+  background-image: url("https://nkfs.org//wp-content/uploads/2020/03/Integrity-2.svg");
+}
+
+.why-join-us-tab .jet-tabs__control:nth-child(3)::before {
+  background-image: url("https://nkfs.org//wp-content/uploads/2020/03/compassion-2.svg");
+}
+
+.why-join-us-tab .jet-tabs__control:nth-child(4)::before {
+  background-image: url("https://nkfs.org//wp-content/uploads/2020/03/excellence-2.svg");
+}
+
+.why-join-us-tab .jet-tabs__control:nth-child(5)::before {
+  background-image: url("https://nkfs.org//wp-content/uploads/2020/03/respect-2.svg");
+}
+
+.why-join-us-tab .jet-tabs__control::before {
+  content: "";
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.why-join-us-tab .jet-tabs__control.active-tab::before {
+  opacity: 1;
+}
+
+.why-join-us-tab .jet-tabs__control .jet-tabs__control-inner {
+  padding: 0;
+}

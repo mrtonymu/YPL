@@ -1,0 +1,401 @@
+html, body {
+  overflow-x: hidden !important;
+}
+
+/*buttons inside the posts*/
+.ts-button {
+  background: inherit;
+  color: inherit;
+  display: inline-block;
+  padding: 10px 10px;
+  border-radius: 4px;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  -moz-transition: -moz-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+}
+
+.ts-button:hover {
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+}
+
+.ts-button .big {
+  height: auto;
+  line-height: 1.2;
+  font-size: 20px;
+  padding: 15px 35px;
+  margin: 10px 0 30px;
+}
+
+.ts-button.big:not(.outline-button) {
+  box-shadow: 0 -2px 0 rgba(70, 70, 70, 0.5) inset;
+}
+
+/*post test alert*/
+.ts-alert {
+  padding: 15px 10px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ts-alert span {
+  display: block;
+}
+
+.ts-alert .alert-icon {
+  float: left;
+  font-size: 38px;
+  color: inherit;
+  line-height: 1.2;
+}
+
+.ts-alert .right-side {
+  padding-left: 70px;
+}
+
+/********* Tabs *********/
+@media (max-width: 767px) {
+  .tab-whole-wrap .jet-tabs__control {
+    display: block;
+    width: 100%;
+    margin-bottom: 1px;
+  }
+}
+
+/*pager*/
+.nk-paginate {
+  margin: 1em 0;
+  text-align: center;
+  font-size: 14px;
+  color: #BE2827;
+}
+
+.nk-paginate:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.nk-paginate a, .nk-paginate span {
+  color: #BE2827;
+}
+
+@media (max-width: 767px) {
+  .nk-paginate {
+    font-size: 12px;
+  }
+}
+
+.nk-paginate .page-numbers {
+  display: none;
+}
+
+.nk-paginate .prev.page-numbers,
+.nk-paginate .next.page-numbers {
+  display: inline-block;
+}
+
+.nk-paginate .prev.page-numbers {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.nk-paginate .next.page-numbers {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+/*Table for Posts*/
+.nk-table {
+  border-collapse: collapse;
+}
+
+.nk-table tr th {
+  color: #FFFFFF;
+  background-color: #2DB3BE;
+  font-weight: bold;
+}
+
+.nk-table tr th, .nk-table tr td {
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #eee;
+}
+
+.nk-table tr th p, .nk-table tr td p {
+  margin-bottom: 0 !important;
+}
+
+/*Tables*/
+.nkf-table {
+  border-collapse: collapse;
+}
+
+.nkf-table tr th {
+  color: #FFFFFF;
+  background-color: #2DB3BE;
+}
+
+.nkf-table tr th, .nkf-table tr td {
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #eee;
+}
+
+.nkf-table tr th p, .nkf-table tr td p {
+  margin-bottom: 0 !important;
+}
+
+.nkf-results-table th:nth-of-type(1),
+.nkf-results-table th:nth-of-type(3) {
+  width: 20%;
+}
+
+/*Tender Table links*/
+.tender-table table th:first-child {
+  width: 200px;
+}
+
+@media (max-width: 767px) {
+  .tender-table table th:first-child {
+    width: auto;
+  }
+}
+
+.tender-table table a {
+  color: #BF2828;
+}
+
+.tender-table table a span {
+  color: #BF2828;
+}
+
+/********* table 2column *********/
+.table-2col table td:last-child {
+  text-align: right;
+}
+
+.table-2col table tr:last-child td {
+  background: #27939C !important;
+  color: #ffffff !important;
+}
+
+/********* table 5column *********/
+.table-5col table th:first-child,
+.table-5col table td:first-child,
+.table-5col-1btm-line table th:first-child,
+.table-5col-1btm-line table td:first-child,
+.table-5col-2btm-line table th:first-child,
+.table-5col-2btm-line table td:first-child {
+  width: 40% !important;
+}
+
+.table-5col table th:nth-child(2),
+.table-5col table th:nth-child(3),
+.table-5col table th:nth-child(4),
+.table-5col table td:nth-child(2),
+.table-5col table td:nth-child(3),
+.table-5col table td:nth-child(4),
+.table-5col-1btm-line table th:nth-child(2),
+.table-5col-1btm-line table th:nth-child(3),
+.table-5col-1btm-line table th:nth-child(4),
+.table-5col-1btm-line table td:nth-child(2),
+.table-5col-1btm-line table td:nth-child(3),
+.table-5col-1btm-line table td:nth-child(4),
+.table-5col-2btm-line table th:nth-child(2),
+.table-5col-2btm-line table th:nth-child(3),
+.table-5col-2btm-line table th:nth-child(4),
+.table-5col-2btm-line table td:nth-child(2),
+.table-5col-2btm-line table td:nth-child(3),
+.table-5col-2btm-line table td:nth-child(4) {
+  width: 13.33333% !important;
+}
+
+.table-5col table th:last-child,
+.table-5col table td:last-child,
+.table-5col-1btm-line table th:last-child,
+.table-5col-1btm-line table td:last-child,
+.table-5col-2btm-line table th:last-child,
+.table-5col-2btm-line table td:last-child {
+  width: 18% !important;
+}
+
+.table-5col table th:first-child,
+.table-5col table td:first-child,
+.table-5col-1btm-line table th:first-child,
+.table-5col-1btm-line table td:first-child,
+.table-5col-2btm-line table th:first-child,
+.table-5col-2btm-line table td:first-child {
+  vertical-align: top;
+}
+
+.table-5col table th:first-child span,
+.table-5col table td:first-child span,
+.table-5col-1btm-line table th:first-child span,
+.table-5col-1btm-line table td:first-child span,
+.table-5col-2btm-line table th:first-child span,
+.table-5col-2btm-line table td:first-child span {
+  text-align: left !important;
+}
+
+.table-5col-1btm-line tr:last-child td {
+  background: #27939C !important;
+  color: #ffffff !important;
+}
+
+.table-5col-2btm-line tr:nth-last-child(-n+2) td {
+  background: #27939C !important;
+  color: #ffffff !important;
+}
+
+/********* Sponsorships table *********/
+.sponsorship-table-01 table tbody tr:first-child td span {
+  text-align: center !important;
+  font-weight: bold !important;
+}
+
+.sponsorship-table-01 table th {
+  background: #F3714D !important;
+  color: #fff;
+}
+
+.sponsorship-table-01 table td {
+  width: 50%;
+  color: #fff;
+}
+
+.sponsorship-table-01 table td:nth-of-type(1) {
+  background: #FDB447 !important;
+}
+
+.sponsorship-table-01 table td:nth-of-type(2) {
+  background: #FF8B43 !important;
+}
+
+.sponsorship-table-01 table td[colspan="2"] {
+  background: #F3714D !important;
+}
+
+.sponsorship-table-01 table td[colspan="2"] span {
+  text-align: center !important;
+}
+
+.sponsorship-table-02 th {
+  background: #4892DE !important;
+}
+
+.sponsorship-table-02 tr {
+  background-color: #8BBBE4 !important;
+  color: #fff;
+}
+
+.sponsorship-table-02 td[colspan="4"] {
+  background: #4892DE !important;
+}
+
+.sponsorship-table-02 td[colspan="4"] span {
+  text-align: center !important;
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+/********* Call to Action *********/
+.nkf-cta .elementor-widget-container {
+  border-radius: 5px;
+}
+
+.nkf-cta .elementor-widget-container:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.nkf-cta.elementor-cta--skin-classic .elementor-cta__bg-wrapper {
+  min-height: 250px;
+}
+
+@media (max-width: 991px) {
+  .nkf-cta.elementor-cta--skin-classic .elementor-cta__bg-wrapper {
+    min-height: 220px;
+  }
+}
+
+.nkf-cta.elementor-cta--skin-classic .elementor-widget-container {
+  border: 1px solid #E7E7E7;
+}
+
+.nkf-cta.elementor-cta--skin-classic .elementor-cta__content {
+  position: relative;
+  display: block;
+  padding-bottom: 3em !important;
+}
+
+.nkf-cta.elementor-cta--skin-classic .elementor-cta__button-wrapper {
+  position: absolute;
+  bottom: 1em;
+}
+
+.nkf-cta.elementor-cta--skin-classic .elementor-cta__button-wrapper .elementor-cta__button {
+  padding: 0;
+}
+
+.nkf-cta.elementor-cta--skin-classic .elementor-cta__button-wrapper .elementor-cta__button::after {
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f054";
+  font-weight: 900;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+/********* Image Carousel *********/
+.nkf-img-caro .elementor-swiper-button i {
+  background: rgba(0, 0, 0, 0.78);
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 25px;
+}
+
+@media (max-width: 767px) {
+  .nkf-img-caro .elementor-swiper-button i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+  }
+}
+
+/********* Button *********/
+.nkf-btn .elementor-button-content-wrapper {
+  align-items: center;
+}
+
+.nkf-btn .elementor-button-icon svg {
+  width: 30px;
+  height: auto;
+}
+
+/********* Print Button *********/
+.nkf-print-btn .elementor-button-content-wrapper {
+  align-items: center;
+}
+
+.nkf-print-btn .elementor-button-icon svg {
+  width: 30px;
+  height: auto;
+}
+
+/********* Breadcrumb for custom post type *********/
+#breadcrumbs {
+  color: #000;
+}
+
+#breadcrumbs a {
+  color: #000;
+}

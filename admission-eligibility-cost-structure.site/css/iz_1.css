@@ -1,0 +1,115 @@
+.single-event hr {
+	margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #eeeeee;
+}
+.event-content .elementor-column-wrap.elementor-element-populated {
+    padding: 0px !important;
+}
+/*Tables*/
+.single-event table {
+  border-collapse: collapse;
+}
+
+.single-event table  tr th {
+  color: #FFFFFF;
+  background-color: #2DB3BE;
+  font-weight: bold;
+}
+/* .ie-homepage-four-sections {
+	min-height: 90vh;
+} */
+.single-event table tr th, .single-event table  tr td {
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+	vertical-align:middle;
+  border: 1px solid #eee;
+}
+
+.single-event table  tr th p, .single-event table  tr td p {
+  margin-bottom: 0 !important;
+}
+
+
+
+.single-event h4 { margin-bottom:15px}
+img.img-free {
+    transform: translateY(-45px);
+}
+.car-transport { margin-bottom:20px}
+img.img-pin-loc {
+    width: 47px;
+    height: auto;
+    transform: translateY(-16px);
+}
+h4.loc-title {
+    transform: translateX(-19px);
+}
+.pad-top-title { padding-top:20px}
+.event-reg { margin-bottom:40px}
+.postcard-title { padding: 10px;}
+.postcard-title h4 {}
+.img-postcard {
+    padding-right: 21px;
+}
+.postcard-bot {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+img.alignleft.size-full.wp-image-6514 {
+    width: 47px;
+    margin-right: 10px;
+    height: auto;
+    transform: translateY(-15px);
+}
+.postcard-note {
+    margin-top: 30px;
+}
+img.alignleft.size-full.wp-image-6515 {
+    width: 25px;
+    height: auto;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+img.size-full.wp-image-6510,
+img.size-full.wp-image-10297{
+    width: 73%;
+}
+
+table.no-border-right , table.no-border-right td{ border-left:0px; border-right:0px}
+ul.kid-ic li {}
+.gal-events img { width:100%; height:auto}
+a.ts-button.big.button-has-icon.bg-button.btn-flg {
+    width: 92%;
+    min-height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-bottom:30px
+}
+.legacy-cntn .inside-grid-column { padding:0}
+.legacy-cntn .lgc-first { padding-right:20px}
+.legacy-cntn .lgc-last { padding-left:20px}
+.diabet h3{ margin-bottom:15px}
+.diabet .inside-grid-column { padding:0}
+.diabet .lgc-first { padding-right:20px}
+.diabet .lgc-last { padding-left:20px}
+.diabet-honey {
+    margin-top: 40px;
+}
+.diabet-honey img{    margin-right: 26px;
+    width: 510px;}
+.diabet-honey p{    margin-right: 20px;}
+
+.btn-flag2 {
+    padding: 21px 30px;
+    width: 80%;
+}
+.postid-6656 h5 { margin-bottom:15px}
+
+@media (max-width: 767px) {
+.diabet .lgc-first { padding-right:0px}
+.diabet .lgc-last { padding-left:0px}
+	.legacy-cntn .lgc-first { padding-right:0px}
+.legacy-cntn .lgc-last { padding-left:0px}
+
+}

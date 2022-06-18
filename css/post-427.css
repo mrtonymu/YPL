@@ -1,0 +1,76 @@
+.elementor-427 .elementor-element.elementor-element-61bf436 {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #EDEDED;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-427 .elementor-element.elementor-element-61bf436:hover {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #EDEDED;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
+.elementor-427 .elementor-element.elementor-element-61bf436>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-427 .elementor-element.elementor-element-260a7de>.elementor-container {
+    min-height: 300px;
+}
+
+.elementor-427 .elementor-element.elementor-element-260a7de:not(.elementor-motion-effects-element-type-background),
+.elementor-427 .elementor-element.elementor-element-260a7de>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-position: center center;
+    background-size: cover;
+}
+
+.elementor-427 .elementor-element.elementor-element-260a7de {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-427 .elementor-element.elementor-element-260a7de>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-427 .elementor-element.elementor-element-0db5a9b:not(.elementor-motion-effects-element-type-background),
+.elementor-427 .elementor-element.elementor-element-0db5a9b>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.elementor-427 .elementor-element.elementor-element-0db5a9b {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    z-index: 1;
+}
+
+.elementor-427 .elementor-element.elementor-element-0db5a9b>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-427 .elementor-element.elementor-element-94bd3f8 {
+    text-align: center;
+}
+
+.elementor-427 .elementor-element.elementor-element-94bd3f8 .elementor-heading-title {
+    color: #000000;
+}
+
+.elementor-427 .elementor-element.elementor-element-d72e3a7 {
+    text-align: center;
+}
+
+.elementor-427 .elementor-element.elementor-element-d72e3a7 .elementor-heading-title {
+    color: #000000;
+}
+
+.elementor-427 .elementor-element.elementor-element-d72e3a7>.elementor-widget-container {
+    margin: 2% 0% 0% 0%;
+}
+
+/* Start custom CSS for section, class: .elementor-element-61bf436 */
+.elementor-427 .elementor-element.elementor-element-61bf436 .elementor-widget:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+/* End custom CSS */
